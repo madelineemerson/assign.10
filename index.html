@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>HighCharts</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="/script.js" defer></script>
+    
+    
+     <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+    <!-- Fill out this section for SEO and social sharing -->
+    <meta name="description" content="K-State Collegian"> <!-- The websum -->
+
+    <meta name="twitter:title" content="Kstate collegian" /> <!-- The webhed -->
+    <meta name="twitter:description" content="Crime in Kansas" /> <!-- The websum -->
+    <meta name="twitter:image:src" content="https://twitter.com/kstatecollegian/photo" /> <!-- the img URL -->
+
+    <meta property="og:image" content="hhttps://twitter.com/kstatecollegian/photo" /> <!-- The img URL -->
+
+    <meta property="og:type" content="Crime in Kansas" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="kstatecollegian" />
+    
+    <!-- social media menu (replace the placeholders with your real facebook, twitter, email-->
+    <div id="social">
+      <ul>
+        <li>
+          <a href="https://twitter.com/kstatecollegian.glitch.me/&text=:%20https://mc316-template-f21.glitch.me/" target="_blank" id="twitter" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/kstatecollegian/.glitch.me/&quote=" target="_blank" title="Share on Facebook" id="facebook" onclick="window.open('https://facebook.com/sharer/sharer.php?u='+ encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="mailto:maddy82@ksu.edu" target="_blank" id="email"><i class="fas fa-paper-plane"></i></a>
+        </li>
+      </ul>
+    </div>
+  </head>
+  <body>
+    
+    <figure class="highcharts-figure">
+    <div id="container2"></div>
+    <p class="highcharts-description">
+        Basic line chart showing trends in a dataset. This chart includes the
+        <code>series-label</code> module, which adds a label to each line for
+        enhanced readability.
+    </p>
+</figure>
+    
+    <figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description">
+        Bar chart showing horizontal columns. This chart type is often
+        beneficial for smaller screens, as the user can scroll through the data
+        vertically, and axis labels are easy to read.
+    </p>
+</figure>
+
+    <figure class="highcharts-figure">
+    <div id="container3"></div>
+    <p class="highcharts-description">
+        Chart showing basic use of bubble series with a custom tooltip formatter.
+        The chart uses plot lines to show safe intake levels for sugar and fat.
+        Bubble charts are great for comparing three dimensions of data without
+        relying on color or 3D charts.
+    </p>
+</figure>
+
+
+   
+  </body>
+</html>
